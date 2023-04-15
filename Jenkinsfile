@@ -40,7 +40,7 @@ pipeline{
 
 						steps {
 
-							sh 'docker build -t sriramaleti9238/physicianavailability-service:latest .'
+							sh 'docker build -t sriramaleti9238/physicianavailabilityservice:latest .'
 
 							}
 
@@ -56,11 +56,11 @@ pipeline{
 
 					}
 
-			stage('Push') {
+			stage(Push) {
 
 					steps {
 
-						sh 'docker push sriramaleti9238/physicianavailability-service'
+						sh 'docker push -f sriramaleti9238/physicianavailabilityservice'
 
 						}
 	
