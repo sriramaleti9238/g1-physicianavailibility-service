@@ -50,7 +50,7 @@ pipeline{
 
 					steps {
 
-						sh 'echo As@13042000 | docker login -u sriramaleti9238 --password-stdin'
+						sh 'echo Akshay@0262 | docker login -u akshayak0262 --password-stdin'
 
 						}
 
@@ -60,7 +60,7 @@ pipeline{
 
 					steps {
 
-						sh 'docker push -f sriramaleti9238/physicianavailabilityservice'
+						sh 'docker push -f akshayak0262/physicianavailabilityservice'
 
 						}
 	
