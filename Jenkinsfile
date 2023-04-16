@@ -40,7 +40,7 @@ pipeline{
 
 						steps {
 
-							sh 'docker build -t akshayak0262/physicianavailabilityservice:latest .'
+							sh 'docker build -t sriramaleti9238/physicianavailabilityservice:latest .'
 
 							}
 
@@ -50,7 +50,7 @@ pipeline{
 
 					steps {
 
-						sh 'echo Akshay@0262 | docker login -u akshayak0262 --password-stdin'
+						sh 'echo As@13042000 | docker login -u sriramaleti9238 --password-stdin'
 
 						}
 
@@ -60,7 +60,7 @@ pipeline{
 
 					steps {
 
-						sh 'docker push -f akshayak0262/physicianavailabilityservice'
+						sh 'docker push sriramaleti9238/physicianavailabilityservice'
 
 						}
 	
