@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.revature.pms.serviceImplTest.ServiceImplTest
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.625 s - in com.revature.pms.serviceImplTest.ServiceImplTest
